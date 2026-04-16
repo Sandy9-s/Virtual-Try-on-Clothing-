@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+AI Virtual Try-On System
 
-## Project info
+An interactive AI-powered Virtual Try-On web application that enables users to visualize clothing on a digital interface in real time. This project combines a modern React (TypeScript)-based frontend with a scalable architecture designed for integration with computer vision and pose estimation models.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The system provides an intuitive user experience for browsing products and simulating a virtual fitting environment, where garments can be dynamically aligned based on body structure using techniques such as scaling, rotation, and translation. It is built with a modular component-based design, ensuring flexibility, maintainability, and seamless extension into a full AI-driven try-on solution.
 
-## How can I edit this code?
+This project serves as a foundation for developing advanced virtual fitting systems by integrating real-time webcam input, landmark detection, and image rendering techniques, making it highly relevant for applications in e-commerce, fashion technology, and augmented reality.
 
-There are several ways of editing your application.
 
-**Use Lovable**
+System Architecture
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The system consists of the following modules:
 
-Changes made via Lovable will be committed automatically to this repo.
+Input Acquisition
+Preprocessing
+Pose Estimation
+Feature Extraction
+Garment Alignment
+Rendering
+Output Display
 
-**Use your preferred IDE**
+Features
+🎥 Real-time webcam-based try-on
+🧍 Human pose detection using key body landmarks
+👕 Dynamic garment alignment (scaling, rotation, translation)
+🎨 Realistic rendering with alpha blending and masking
+⚡ Fast and efficient real-time performance
+🖥️ Works on standard systems (no high-end GPU required)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Performance Evaluation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The system is evaluated based on:
 
-Follow these steps:
+Alignment Accuracy → Proper garment fitting
+Real-Time Processing → Low latency
+Visual Realism → Smooth and natural appearance
+Robustness → Works under different lighting and movement conditions
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/your-username/virtual-try-on.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project folder
+cd virtual-try-on
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+pip install -r requirements.txt
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# Run the application
+python app.py 
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
