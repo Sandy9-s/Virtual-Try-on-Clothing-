@@ -19,6 +19,14 @@ Garment Alignment
 Rendering
 Output Display
 
+
+
+https://github.com/user-attachments/assets/c6c7974f-4957-44f7-919f-12be93d87312
+
+
+
+
+
 Features
 🎥 Real-time webcam-based try-on
 🧍 Human pose detection using key body landmarks
